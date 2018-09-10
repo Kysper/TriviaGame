@@ -1,0 +1,157 @@
+
+html
+{
+    background:black
+}
+#wrapper
+{ 
+    max-width:100%;
+    max-height: 100%;
+    width: 70%;
+    height: 860px;
+    position:relative;
+    margin:0 auto;
+    border:  2px solid black;
+    background:lightgrey;
+}
+
+header
+{
+    text-align:center;
+    width:40%;
+    left:30%;
+    height: 100px;
+    border: 2px solid black;
+    background:darkgray;
+    position:relative;
+    z-index:2;
+    border-radius: 20px;
+}
+
+#middle-side
+{   
+    text-align:center;
+    border: 2px solid black;
+    background:darkgray;
+    position:absolute;
+    left:30%;
+    top:16%;
+    width:40%;
+    height: 80%;
+    border-radius: 20px;
+    
+}
+#left-side
+{
+    text-align:center;
+    border: 2px solid black;
+    background:darkgray;
+    position:absolute;
+    top:0;
+    left:0;
+    width:25%;
+    height: 860px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#right-side
+{
+    text-align:center;
+    border: 2px solid black;
+    background:darkgray;
+    position:absolute;
+    top:0;
+    right:0;
+    width:25%;
+    height: 860px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+#footer
+{
+    border: 2px solid black;
+    background:darkgray;
+    position:sticky;
+    height:60px;
+    text-align:center;
+    line-height: 40px;
+}
+
+#btn-container
+{
+    border-radius:20px;
+    border:3px dashed black;
+    background:white;
+    width: 90%;
+    height: 40%;
+    color:black;
+    position:absolute;
+    left:4%;
+    bottom:20%;
+}
+#question-list
+{
+    font-size:30px;
+    position:absolute;
+    top: 10%;
+    left:0%;
+    text-align: center;
+    background:white;
+    border: 3px dashed black;
+    border-radius:20px;
+}
+ #btn-style
+{
+    width:200px;
+   height:100px;
+    position:relative;
+    top:85px;
+    font-size: 20px;
+    font-weight:bold;
+    color:gray;
+    background-color:white;
+    border-radius: 20px;
+    border-bottom:6px solid gray;
+    border-right:6px solid gray;
+    left:0%;
+}
+
+#choice-0
+{
+    border-radius:20px;
+    width:200px;
+    height:90px;
+    position:absolute;
+    left:5%;
+    top:5%;
+}
+#choice-1
+{
+    border-radius:20px;
+    width:200px;
+    height:90px;
+    position:absolute;
+    left:53%;
+    top:5%;
+}
+#choice-2
+{
+    border-radius:20px;
+    width:200px;
+    height:90px;
+    position:absolute;
+    left:5%;
+    top:62%;
+}
+#choice-3
+{
+    border-radius:20px;
+    width:200px;
+    height:90px;
+    position:absolute;
+    left: 53%;
+    top:62%;
+}
