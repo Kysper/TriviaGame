@@ -81,7 +81,7 @@ header
 }
 
 #btn-container
-{
+{   overflow:auto;
     border-radius:20px;
     border:3px dashed black;
     background:white;
@@ -119,8 +119,9 @@ header
     left:0%;
 }
 
-#choice-0
+#choice0
 {
+    margin:5px;
     border-radius:20px;
     width:200px;
     height:90px;
@@ -128,8 +129,9 @@ header
     left:5%;
     top:5%;
 }
-#choice-1
+#choice1
 {
+    margin:5px;
     border-radius:20px;
     width:200px;
     height:90px;
@@ -137,8 +139,9 @@ header
     left:53%;
     top:5%;
 }
-#choice-2
+#choice2
 {
+    margin:5px;
     border-radius:20px;
     width:200px;
     height:90px;
@@ -146,8 +149,9 @@ header
     left:5%;
     top:62%;
 }
-#choice-3
+#choice3
 {
+    margin:5px;
     border-radius:20px;
     width:200px;
     height:90px;
