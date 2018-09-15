@@ -7,27 +7,37 @@
     <title>Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../TriviaGame/assets/css/style.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
     <script src="../TriviaGame/assets/javascript/app.js"></script>
 
 </head>
 
 <body>
     <main id="wrapper">
-        <header id="logo">Trivia Game</header>
-        <div id="left-side">Instructions:</div>
-        <div id="middle-side">
+        <header id="logo"><img src="../TriviaGame/assets/images/trivialogo.png"/>></header>
+        <div id="left-side">Instructions:
+        <p> To start the game hit start,
+            This trivia game will pick a variety
+            of video game questions with multiple choice
+            the game will automatically replay after a few seconds if
+            you would like to try again.
+
+
+        </p>
+        </div>
+        <div class="middle-side">
             <h1 id="timer"></h1>
             <div id="question-list"></div>
-            <div id="answer-check"></div>
             <div id="btn-container">
                 <div id="start-button"></div>
-                </div>
             </div>
         </div>
+
         <div id="right-side">
-            <div id="wins">Wins:</div>
-            <div id="losses">Losses:</div>
+            <div id="correct">Correct: -</div>
+            <div id="incorrect">Incorrect: -</div>
+            <div id="answers-missed">Incomplete: -</div>
         </div>
     </main>
     <footer id="footer">
