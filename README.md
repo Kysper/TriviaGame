@@ -1,17 +1,9 @@
-# TriviaGame
+# Trivia Game
+I made this as a fun way to have my friends test their video game knowledge and to practice setintervals and timer's along with building questionaires
 
-# Added the Files to the respo
+## How to play
 
-# Created the resetGame function to zero out all the dynamic variables
+In this game there will be multiple choice questions that you simply click on the choice to choose an answer
+A right answer will add to your correct questions score and a wrong one will add to question missed score.
+At the end of the quiz there will be a amount of questions missed and total score for how well you did.
 
-# Made a startGame to enable the button press and call the get question function
-
-# GetQuestion function is used to load the first question and instaniate the buttons
-
-# Then the choicechecker is selected and used to determine if the button pressed is correct or not
-
-# Then looping back to the getquestion and repeats until all questions in the questions.length are cycled through
-
-# then afterwards the endgame will check the amount of right answers and wrong answers add them together and subtract them to the questions.length to get the amount of missed questions
-
-# added a timeout timer to each question and after the end of the endGame function to restart the game without having to refresh
